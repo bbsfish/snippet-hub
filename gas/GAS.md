@@ -29,7 +29,7 @@ https://script.google.com/home/usersettings
 ## make application
 1. Create script
     ```bash:
-    clasp create
+    npx clasp create
     ```
     Select optional script type
 
