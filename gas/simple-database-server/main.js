@@ -1,8 +1,6 @@
-// const SpreadSheetID = "your-spreadsheet-book-id";
-// const SheetName = "your-spreadsheet-sheet-name";
-const SpreadSheetID = "1Szn2B84AYAUbY9NH6U0pfrZAx_4-qjF_71TJOdIPZCE";
-const DatabaseSheetName = "data";
-const AccessKeyStoreSheetName = "accesskeys"; // Sheet name of accesskey list
+const SpreadSheetID = "your-spreadsheet-book-id";
+const DatabaseSheetName = "your-spreadsheet-sheet-name";
+const AccessKeyStoreSheetName = "accesskeys"; // Sheet name of accesskey list (default: "accesskeys")
 
 const Logger = BetterLog.useSpreadsheet(SpreadSheetID); 
 
